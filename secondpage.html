@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict & Win</title>
+</head>
+<body>
+
+<div class="full">
+    <div class="header1"></div>
+
+    <div class="header2">
+    <div class="info">
+        <strong>Euro Cup Prediction</strong></div>
+        <img src="eurologo.png">
+    </div>
+    
+    <div class="header29">
+        <img src="bg.png" height="110" width="425" >
+    </div>
+    <div class="header3">
+    
+        
+    <div class="header3.1"></div>
+    </div>
+<div class="date">Today, June 24</div>
+<div class="game"></div>
+<div class="game1"></div>
+<div class="portugal">
+    <img src="portugal.png" > Portugal
+</div>
+<div class="germany">
+    <img src="germany.png" > Germany
+</div>
+<div class="footer">You can change your predictions until the start of the match</div>
+<div class="score1">
+   <button type="submit" id="button1"></button>
+</div>
+<div class="score2">
+    <button type="submit" id="button2"></button>
+
+</div>
+<div class="colon">:</div>
+<div class="intro">Quarter-Final Q1</div>
+<div class="time"> 12:45 AM
+   <img src="time.png"> 
+</div>
+<div class="last"></div>
+<div class="cancel"><button type = "submit" id = "button4">Cancel</button></div>
+
+<div class="save"> <button type="submit" id="button3" >Save</button> </div>
+
+<div class="portugal2">
+    <img src="portugal.png">
+
+</div>
+<div class="germany2">
+    <img src="germany.png">
+</div>
+
+
+
+
+</div>
+
+
+
+    <style>
+        .cancel button{
+            cursor: pointer;
+            width: 56px;
+            height: 25px;
+            color: rgba(0, 181, 5, 1);
+            
+
+        }
+        .save button{
+            cursor: pointer;
+            width: 50px;
+            height: 25px;
+            color: rgba(0, 181, 5, 1);
+
+            
+        }
+       
+        .full{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .score1 button{
+            width: 41px;
+            height: 50px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        .score2 button{
+            width: 41px;
+            height: 50px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        .time img{
+            scale: 0.033;
+            margin-left: -255px;
+            margin-top: -245px;
+            transform: translate(20%,-110%);
+        }
+        .time{
+            width: 83px;
+            height: 26px;
+            margin-left: 175px;
+            z-index: 1;
+            position: relative;
+            justify-content: center;
+            text-align: center;
+            margin-top: 50px;
+            border-radius: 15px;
+            box-shadow: rgb(61, 60, 60);
+            background: rgba(246, 246, 246, 1);
+            padding: 6px 2px 0px 10px;
+            color: rgba(51, 51, 51, 1);
+            transform: translate(-0%,70%);
+            font-size: smaller;
+
+        }
+        .colon{
+            height: 80px;
+            width: 15px;
+            background-color: rgb(255, 254, 254);
+            margin-left: 210px;
+            margin-top: -295px;
+            transform: translate(0%, 10%);
+            font-size: xx-large;
+        }
+        .intro{
+            width: 162px;
+            height: 16px;
+            background-color: rgb(255, 254, 254);
+            margin-top: -103px;
+            z-index: 1;
+            position: relative;
+            text-align: center;
+            justify-content: center;
+            margin-left: 138px;
+        }
+        .portugal img{
+            height: 42px;
+            width: 42px;
+            transform: translate(15%, 7%);
+
+        }
+        .portugal{
+            color: rgb(5, 0, 0);
+            background-color: rgb(255, 254, 254);
+            width: 60px;
+            transform: translate(90%, -125%);
+            height: 50px;
+            
+        }
+        .germany img{
+            height: 42px;
+            width: 42px;
+            transform: translate(135%, -35%);
+
+        }
+        .germany{
+            transform: translate(21%, -210%);
+            color: rgb(0, 0, 0);
+        
+        }
+        .header1{
+            width: fixed;
+            width: 377px;
+            justify-content: space-between;
+            padding: 13px 16px 13px 32px;
+            height: 10px;
+            background-color: rgba(41, 187, 0 ,1);
+        }
+        .header2{
+            width: 425px;
+            height: 26px;
+            top: 48px;
+            border: 0px 0px 5px 0px;
+            background-color: rgba(41, 187, 0 ,1);
+            color: rgb(253, 251, 251);
+            text-align: center;
+            padding-top: 0px;
+            text-decoration: solid;
+
+        }
+        .header2 img{
+            height: 100px;
+            width: 77px;
+            width: fixed;
+            height: fixed;
+            justify-content: center;
+            align-items: center;
+            margin-left: -10px;
+            margin-top: 65px;
+            
+        }
+        .header29{
+            background-repeat: no-repeat;
+            background-position: contain;
+            height: 110px;
+            width: 375px;
+            -webkit-transform: rotate(180deg);
+            margin-left: 50px;
+        }
+        .header3{
+            height: 1096px;
+            width: 429px;
+            border-top-left-radius: 110px;
+            border-top-right-radius: 110px;
+            background-color: rgb(235, 246, 248);
+            margin-right: -50px;
+            margin-left: -2px;
+            margin-top: -82px;
+        
+        }
+        .date{
+            width: 105px;
+            height: 21px;
+            color: black;
+            z-index: 1;
+            position: relative;
+            margin-top: -970px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+        }
+        
+        .game{
+            width: fixed 200px;
+            height: 147px;
+            padding: 20px 0px 0px 0px;
+            gap: 8px;
+            border-radius: 10px 10px 10px 10px;
+            opacity: 0px;
+            background-color: rgba(255, 255, 255, 1);
+            margin-top: 140px;
+            transform: translate(-0%,-80%);
+            margin-left: -5px;
+
+        }
+        .game1{
+            width: 273px;
+            height: 63px;
+            color: black;
+            transform: translate(27%, 0%);
+            background-color: rgb(253, 252, 252);
+            margin-top: -280px;
+
+        }
+
+        .header3.1{
+            width: 343px;
+            height: 332px;
+            top: 125px;
+            left: 16px;
+            gap: 16px;
+        }
+        .score1{
+            width: 41px;
+            height: 50px;
+            background-color: rgb(250, 247, 247);
+            transform: translate(300%, -370%);
+            border-radius: 15px;
+            border: 1px solid black;
+        }
+        .score2{
+            width: 41px;
+            height: 50px;
+            background-color: rgb(250, 249, 249);
+            transform: translate(600%, -470%);
+            border-radius: 15px;
+            border: 1px solid black;
+
+
+        }
+        .footer{
+            width: 390px;
+            height: 30px;
+            color:rgb(53, 51, 51);
+            background-color: rgb(253, 251, 251);
+            transform: translate(5%, -50%);
+            border-radius: 15px;
+            padding-top: 10px;
+            text-align: center;
+            line-height: 17px;
+        }
+        .last{
+            width: 425px;
+            height: 269px;
+            background-color: rgb(105, 3, 3);
+            border-radius: 20px;
+            margin-top: 105px;
+            margin-left: 0px;
+        }
+        .cancel{
+            width: 50px;
+            height: 25px;
+            color: rgba(0, 181, 5, 1);
+            background-color: beige;
+            z-index: 1;
+            position: relative;
+            margin-top: -245px;
+            margin-left: 10px;
+            text-align: center;
+            justify-content: center;
+            padding-right: 3px;
+            padding-right: 5px;
+        }
+        .save{
+            width: 50px;
+            height: 25px;
+            color: rgba(0, 181, 5, 1);
+            background-color: white;
+            z-index: 1;
+            position: relative;
+            margin-top: -25px;
+            margin-left: 365px;
+
+        }
+        .portugal2 img{
+            height: 42px;
+            width: 42px;
+            transform: translate(150%, 30%);
+        }
+        .germany2 img{
+            height: 42px;
+            width: 42px;
+            transform: translate(785%, -85%);
+        }
+        
+  
+    </style>
+    <script>
+        document.getElementById("button3").addEventListener("click", function() {
+            window.location.href = "thirdpage.html";
+        });
+    </script>
+</body>
+</html>
