@@ -30,7 +30,7 @@
     font-feature-settings: "tnum";
     margin-left: 550px;
     padding-top: -200px;
-    transform: translate(10%,-370%);
+    transform: translate(10%,-350%);
     height: 10px;
     
 }
@@ -64,6 +64,7 @@
     text-align: right;
     word-spacing: 0.5em;
     text-decoration: none;
+    color: rgba(96, 96, 98, 1)
   }
   .picker-hour-1{
     height: -10px;
@@ -95,7 +96,7 @@
     font-feature-settings: "tnum";
     margin-left: 550px;
     padding-top: -200px;
-    transform: translate(-1110%,-370%);
+    transform: translate(-1115%,-350%);
     height: 10px;
     
 }
@@ -129,6 +130,7 @@
     text-align: right;
     word-spacing: 0.5em;
     text-decoration: none;
+    color: rgba(96, 96, 98, 1)
   }
   
   ::-webkit-scrollbar {
@@ -145,6 +147,7 @@
     margin-right: auto;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    
     
   }
   
@@ -168,6 +171,7 @@
     width: 50px;
     height: 25px;
     color: rgba(0, 181, 5, 1);
+    
   }
   
 
@@ -177,6 +181,8 @@
     cursor: pointer;
     border-radius: 15px;
     margin-top: -0px;
+    opacity: 0.3;
+    
   }
   .score2 button{
     width: 41px;
@@ -184,6 +190,8 @@
     cursor: pointer;
     border-radius: 15px;
     margin-top: -0px;
+    opacity: 0.3;
+    
   }
   
   .time img {
@@ -191,6 +199,7 @@
     margin-left: -255px;
     margin-top: -245px;
     transform: translate(-10%, -110%);
+    opacity: 0.3;
   }
   
   .time {
@@ -209,7 +218,7 @@
     transform: translate(0%, 210%);
     font-size: smaller;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-
+    opacity: 0.3;
   }
   
   .colon {
@@ -220,12 +229,15 @@
     margin-top: -295px;
     transform: translate(0%, -55%);
     font-size: xx-large;
+    opacity: 0.3;
   }
   .portugall{
     transform: translate(0%, -230%);
+    opacity: 0.3;
   }
   .germanyy{
     transform: translate(12%, -250%);
+    opacity: 0.3;
   }
   
   .intro {
@@ -240,12 +252,14 @@
     justify-content: center;
     margin-left: 138px;
     transform: translate(-5%, 250%);
+    opacity: 0.3;
   }
   
   .portugal img {
     height: 42px;
     width: 42px;
     transform: translate(15%, -100%);
+    opacity: 0.3;
   }
   
   .portugal {
@@ -254,17 +268,20 @@
     width: 60px;
     transform: translate(90%, -125%);
     height: 50px;
+    opacity: 0.3;
   }
   
   .germany img {
     height: 42px;
     width: 42px;
     transform: translate(135%, -110%);
+    opacity: 0.3;
   }
   
   .germany {
     transform: translate(64%, -175%);
     color: rgb(0, 0, 0);
+    opacity: 0.3;
   }
   
   .header1 {
@@ -273,6 +290,7 @@
     padding: 13px 16px 13px 32px;
     height: 10px;
     background-color: rgba(41, 187, 0, 1);
+    opacity: 0.3;
   }
   
   .header2 {
@@ -285,6 +303,7 @@
     text-align: center;
     padding-top: 0px;
     text-decoration: solid;
+    opacity: 0.3;
   }
   
   .header2 img {
@@ -294,6 +313,7 @@
     align-items: center;
     margin-left: -10px;
     margin-top: 65px;
+    opacity: 0.3;
 }
 
 .header29 {
@@ -303,6 +323,7 @@
   width: 375px;
   -webkit-transform: rotate(180deg);
   margin-left: 50px;
+  opacity: 0.3;
 }
 
 .header3 {
@@ -314,6 +335,7 @@
   margin-right: -50px;
   margin-left: 0px;
   margin-top: -82px;
+  opacity: 0.3;
 }
 
 .date {
@@ -322,9 +344,10 @@
   color: black;
   z-index: 1;
   position: relative;
-  margin-top: -960px;
+  margin-top: -950px;
   margin-bottom: 20px;
   margin-left: 10px;
+  opacity: 0.3;
 }
 
 .game {
@@ -333,21 +356,22 @@
   height: 147px;
   padding: 20px 0px 0px 0px;
   gap: 8px;
-  border-radius: 10px;
+  border-radius: 15px;
   opacity: 0;
   background-color: rgba(255, 255, 255, 1);
   margin-top: 140px;
   transform: translate(2%, -80%);
-  margin-left: -5px;
+  margin-left: -7px;
   margin-right: 10px;
   backdrop-filter: saturate(180%) blur(10px);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  opacity: 0.3;
 
 }
 
 .game1 {
   width: fixed;
-  width: 424px;
+  width: 420px;
   height: 163px;
   color: black;
   transform: translate(0%, 0%);
@@ -355,6 +379,8 @@
   margin-top: -280px;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
   border-radius: 15px;
+  opacity: 0.3;
+  margin-left: 0px;
 
 }
 
@@ -365,6 +391,7 @@
   top: 125px;
   left: 16px;
   gap: 16px;
+  opacity: 0.3;
 }
 
 .score1 {
@@ -374,15 +401,17 @@
   transform: translate(300%, -480%);
   border-radius: 15px;
   border: 1px solid black;
+  opacity: 0.3;
 }
 
 .score2 {
   width: 41px;
   height: 50px;
   background-color: rgb(250, 249, 249);
-  transform: translate(650%, -580%);
+  transform: translate(650%, -585%);
   border-radius: 15px;
   border: 1px solid black;
+  opacity: 0.3;
 }
 
 .footer {
@@ -398,6 +427,7 @@
   z-index: 1;
   position: relative;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  opacity: 0.3;
 
   
 }
@@ -409,11 +439,13 @@
   border-radius: 20px;
   margin-top: 120px;
   margin-left: 0px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-  mix-blend-mode: ;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.25), 0 1px 4px rgba(0, 0, 0, 5);
+  mix-blend-mode:overlay;
+  opacity: 1;
+  border-top: 3px solid black;
 }
 .handlebar{
-    transform: translate(2490%, -1800%);
+    transform: translate(2490%, -1860%);
     height: 15px;
     width: 25px;
     z-index: 1;
@@ -454,5 +486,5 @@
 .germany2 img {
   height: 42px;
   width: 42px;
-  transform: translate(785%, -75%);
+  transform: translate(785%, -88%);
 }
