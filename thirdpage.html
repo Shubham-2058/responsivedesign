@@ -49,18 +49,49 @@
 <div class="last"></div>
 
 
-
-
-
-
 <div id="loader" class="center">Saving</div>
 <div class="bar">
     <img src="bar.png">
 </div>
 </div>
+<div class="loader"> </div>
+<div class="saving">Saving</div>
 
 
     <style>
+        .saving{
+            width: 33px;
+            height: 12px;
+            margin-left: 625px;
+            z-index: 1;
+            position: relative;
+            margin-top: 5px;
+            color: rgba(121, 116, 126, 1);
+        }
+        .loader{
+            width: 44px;
+            height: 44px;
+            border-top: 4px solid rgba(41, 187, 0 ,1);
+            border-radius: 50%;
+            border-left: 4px solid rgba(228, 255, 221, 1);
+            border-right: 4px solid rgba(228, 255, 221, 1);
+            border-bottom: 4px solid rgba(228, 255, 221, 1);
+            animation: rotate 1.3s linear infinite;
+            margin-top: -160px;
+            margin-left: 620px;
+            z-index: 1;
+            position: relative;
+
+        }
+        @keyframes rotate{
+            0%{
+                transform: rotate(0deg);
+
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
         .full{
             border: 1px solid black;
             z-index: 1;
@@ -327,7 +358,7 @@
         .last{
             width: 425px;
             height: 269px;
-            background-color: rgb(105, 3, 3);
+            background-color: rgb(250, 248, 248);
             border-radius: 20px;
             margin-top: 105px;
             margin-left: 0px;
